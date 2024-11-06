@@ -66,7 +66,7 @@ We plan to use **Unity** and the **Wave Function Collapse (WFC)** algorithm to p
 
 ### Design
 
-- **Input Pattern Module → WFC Module → Element Modules → Scene Assembly Module**
+- **Maya** -> **Photoshop for textureing** -> **Unity**
 - **User Interface Module** interacts with **WFC Module** for real-time adjustments.
 
 ### Timeline
