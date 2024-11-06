@@ -24,9 +24,9 @@ By achieving these objectives, we hope to deliver a tool that not only embodies 
 
 ### Inspiration/reference:
 
-![Google Playstore](https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay)
+[Google Playstore](https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay)
 
-![Link to description](https://shouyou.3dmgame.com/zt/106370_gl_all_44/)
+[Link to description](https://shouyou.3dmgame.com/zt/106370_gl_all_44/)
 
 ![image.png](image.png)
 
