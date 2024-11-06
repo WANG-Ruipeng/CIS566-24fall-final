@@ -1,117 +1,77 @@
-# Final Project!
+# CIS 5660 Final Project
 
-This is it! The culmination of your procedural graphics experience this semester. For your final project, we'd like to give you the time and space to explore a topic of your choosing. You may choose any topic you please, so long as you vet the topic and scope with an instructor or TA. We've provided some suggestions below. The scope of your project should be roughly 1.5 homework assignments). To help structure your time, we're breaking down the project into 4 milestones:
+Team members: Sirui Zhu, Crystal Jin, Ruipeng Wang
 
 ## Project planning: Design Doc (due 11/6)
-Before submitting your first milestone, _you must get your project idea and scope approved by Rachel, Adam or a TA._
 
 ### Design Doc
-Start off by forking this repository. In your README, write a design doc to outline your project goals and implementation plan. It must include the following sections:
 
-#### Introduction
-- What motivates your project?
+### Introduction
 
-#### Goal
-- What do you intend to achieve with this project?
+Chinese architecture is renowned for its unique and enduring aesthetic, deeply rooted in cultural symbolism and harmony with nature. Among the many regional styles, **Jiangnan architecture**—popular in the southern Yangtze River region—stands out for its elegance and simplicity. Characterized by **white walls and black-tiled roofs**, Jiangnan buildings capture a distinct visual appeal that balances sophistication with natural surroundings.
 
-#### Inspiration/reference:
-- You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
-- Include in your design doc links to and images of your reference material.
+This project aims to recreate the essence of Jiangnan buildings through procedural generation, focusing on elements like the iconic roof curves, wall textures, and subtle detailing. By exploring these forms and patterns, we hope to capture the serene and harmonious qualities that define this celebrated style.
 
-#### Specification:
-- Outline the main features of your project.
+### Goal
 
-#### Techniques:
-- What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
+The aim of this project is to create a procedural generator that produces traditional Jiangnan-style buildings, inspired by the visual aesthetics of 江南百景图 or *Jiangnan Hundred Scenes*. Through this project, we intend to:
 
-#### Design:
-- How will your program fit together? Make a simple free-body diagram illustrating the pieces.
+1. **Reproduce Authentic Architectural Details**: Develop a system that generates white-walled, black-tiled structures characteristic of Jiangnan architecture, capturing the simplicity and harmony of the region’s unique aesthetic. This includes features such as upturned roof eaves, ornate wooden lattice windows, and traditional courtyards.
+2. **Facilitate Dynamic Environment Creation**: Design a generator that allows for quick and dynamic placement of Jiangnan-style buildings and elements within a scene. This flexibility will support the creation of varied environments that mimic the distinct neighborhoods and picturesque layouts seen in *Jiangnan Hundred Scenes*.
+3. **Enable Customization and Interactivity**: Allow users to customize various architectural features, such as building height,  plant types and city layout. These customization options will make it easy to create a variety of traditional Chinese buildings while maintaining the artistic and historical essence of the Jiangnan style.
 
-#### Timeline:
-- Create a week-by-week set of milestones for each person in your group. Make sure you explicitly outline what each group member's duties will be.
+By achieving these objectives, we hope to deliver a tool that not only embodies the beauty of Jiangnan architecture but also allows for creative freedom in designing environments reminiscent of *Jiangnan Hundred Scenes*.
 
-Submit your Design doc as usual via pull request against this repository.
-## Milestone 1: Implementation part 1 (due 11/13)
-Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
+### Inspiration/reference:[https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay](https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay)
 
-Put all your code in your forked repository.
+[https://shouyou.3dmgame.com/zt/106370_gl_all_44/](https://shouyou.3dmgame.com/zt/106370_gl_all_44/)
 
-Submission: Add a new section to your README titled: Milestone #1, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what's giving you trouble?
-- Examples of your generators output so far
-We'll check your repository for updates. No need to create a new pull request.
-## Milestone 2: Implementation part 2 (due 11/25)
-We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
+![image.png](CIS%205660%20Final%20Project%201361b7c33bd480bf9254e92d56411b8a/image.png)
 
-Put all your code in your forked repository.
+![image.png](CIS%205660%20Final%20Project%201361b7c33bd480bf9254e92d56411b8a/image%201.png)
 
-Submission: Add a new section to your README titled: Milestone #3, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what did you have to cut and why? 
-- Detailed output from your generator, images, video, etc.
-We'll check your repository for updates. No need to create a new pull request.
+![image.png](CIS%205660%20Final%20Project%201361b7c33bd480bf9254e92d56411b8a/image%202.png)
 
-Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
+### Specification:
 
-## Final submission (due 12/2)
-Time to polish! Spen this last week of your project using your generator to produce beautiful output. Add textures, tune parameters, play with colors, play with camera animation. Take the feedback from class critques and use it to take your project to the next level.
+- Procedural generated items list:
+    - Two types of trees:
+        - willow
+        - plum blossom
+    - Four types of houses:
+        - residential building
+        - shops
+        - pavilion
+        - tower
+    - River
+        - with/without lotus
+    - Road
+        - Brick
+        - Stone
+    - Bridge/Boat
+- Water painting stylization
 
-Submission:
-- Push all your code / files to your repository
-- Come to class ready to present your finished project
-- Update your README with two sections 
-  - final results with images and a live demo if possible
-  - post mortem: how did your project go overall? Did you accomplish your goals? Did you have to pivot?
+### Techniques
 
-## Topic Suggestions
+We plan to use **Unity** and the **Wave Function Collapse (WFC)** algorithm to procedurally generate Jiangnan-style architecture. WFC is well-suited for arranging elements based on sample patterns.
 
-### Create a generator in Houdini
+1. **Unity**: Unity will serve as our primary platform, enabling real-time adjustments and modular design of architectural elements like walls, roofs, and courtyards.
+2. **Wave Function Collapse Algorithm**: WFC will guide the placement of architectural components by referencing Jiangnan-style patterns, ensuring visually coherent and varied outputs.
 
-### A CLASSIC 4K DEMO
-- In the spirit of the demo scene, create an animation that fits into a 4k executable that runs in real-time. Feel free to take inspiration from the many existing demos. Focus on efficiency and elegance in your implementation.
-- Example: 
-  - [cdak by Quite & orange](https://www.youtube.com/watch?v=RCh3Q08HMfs&list=PLA5E2FF8E143DA58C)
+[https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/](https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/)
 
-### A RE-IMPLEMENTATION
-- Take an academic paper or other pre-existing project and implement it, or a portion of it.
-- Examples:
-  - [2D Wavefunction Collapse Pokémon Town](https://gurtd.github.io/566-final-project/)
-  - [3D Wavefunction Collapse Dungeon Generator](https://github.com/whaoran0718/3dDungeonGeneration)
-  - [Reaction Diffusion](https://github.com/charlesliwang/Reaction-Diffusion)
-  - [WebGL Erosion](https://github.com/LanLou123/Webgl-Erosion)
-  - [Particle Waterfall](https://github.com/chloele33/particle-waterfall)
-  - [Voxelized Bread](https://github.com/ChiantiYZY/566-final)
+[https://github.com/mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)
 
-### A FORGERY
-Taking inspiration from a particular natural phenomenon or distinctive set of visuals, implement a detailed, procedural recreation of that aesthetic. This includes modeling, texturing and object placement within your scene. Does not need to be real-time. Focus on detail and visual accuracy in your implementation.
-- Examples:
-  - [The Shrines](https://github.com/byumjin/The-Shrines)
-  - [Watercolor Shader](https://github.com/gracelgilbert/watercolor-stylization)
-  - [Sunset Beach](https://github.com/HanmingZhang/homework-final)
-  - [Sky Whales](https://github.com/WanruZhao/CIS566FinalProject)
-  - [Snail](https://www.shadertoy.com/view/ld3Gz2)
-  - [Journey](https://www.shadertoy.com/view/ldlcRf)
-  - [Big Hero 6 Wormhole](https://2.bp.blogspot.com/-R-6AN2cWjwg/VTyIzIQSQfI/AAAAAAAABLA/GC0yzzz4wHw/s1600/big-hero-6-disneyscreencaps.com-10092.jpg)
+### Design
 
-### A GAME LEVEL
-- Like generations of game makers before us, create a game which generates an navigable environment (eg. a roguelike dungeon, platforms) and some sort of goal or conflict (eg. enemy agents to avoid or items to collect). Aim to create an experience that will challenge players and vary noticeably in different playthroughs, whether that means procedural dungeon generation, careful resource management or an interesting AI model. Focus on designing a system that is capable of generating complex challenges and goals.
-- Examples:
-  - [Rhythm-based Mario Platformer](https://github.com/sgalban/platformer-gen-2D)
-  - [Pokémon Ice Puzzle Generator](https://github.com/jwang5675/Ice-Puzzle-Generator)
-  - [Abstract Exploratory Game](https://github.com/MauKMu/procedural-final-project)
-  - [Tiny Wings](https://github.com/irovira/TinyWings)
-  - Spore
-  - Dwarf Fortress
-  - Minecraft
-  - Rogue
+- **Input Pattern Module → WFC Module → Element Modules → Scene Assembly Module**
+- **User Interface Module** interacts with **WFC Module** for real-time adjustments.
 
-### AN ANIMATED ENVIRONMENT / MUSIC VISUALIZER
-- Create an environment full of interactive procedural animation. The goal of this project is to create an environment that feels responsive and alive. Whether or not animations are musically-driven, sound should be an important component. Focus on user interactions, motion design and experimental interfaces.
-- Examples:
-  - [The Darkside](https://github.com/morganherrmann/thedarkside)
-  - [Music Visualizer](https://yuruwang.github.io/MusicVisualizer/)
-  - [Abstract Mesh Animation](https://github.com/mgriley/cis566_finalproj)
-  - [Panoramical](https://www.youtube.com/watch?v=gBTTMNFXHTk)
-  - [Bound](https://www.youtube.com/watch?v=aE37l6RvF-c)
+### Timeline
 
-### YOUR OWN PROPOSAL
-- You are of course welcome to propose your own topic . Regardless of what you choose, you and your team must research your topic and relevant techniques and come up with a detailed plan of execution. You will meet with some subset of the procedural staff before starting implementation for approval.
+| Week | Task | Crystal Jin | Sirui Zhu | Ruipeng Wang |
+| --- | --- | --- | --- | --- |
+| **Week 1** | Initial Setup & Basic Module Creation | Set up Unity project and WFC integration, design base procedural logic | Begin designing prefabs for houses and roads | Design prefabs for trees and water elements |
+| **Week 2** | Implement Core Generation Features | Develop procedural rules for house types (residential, shops, pavilion, tower) | Integrate roads (brick, stone) and bridges, basic scene composition | Implement river with lotus options, basic tree placement (willow, plum blossom) |
+| **Week 3** | Water Painting Stylization & Customization | Implement water painting shader stylization | Add UI for selecting item types (houses, trees, roads) | Refine procedural generation for variety and realism (item size, spacing) |
+| **Week 4** | Final Assembly & Polish | Integrate all elements in scene, optimize generation | Apply final visual adjustments and scene lighting | Conduct testing, debug procedural issues, and prepare for final presentation |
