@@ -22,15 +22,17 @@ The aim of this project is to create a procedural generator that produces tradit
 
 By achieving these objectives, we hope to deliver a tool that not only embodies the beauty of Jiangnan architecture but also allows for creative freedom in designing environments reminiscent of *Jiangnan Hundred Scenes*.
 
-### Inspiration/reference:[https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay](https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay)
+### Inspiration/reference:
 
-[https://shouyou.3dmgame.com/zt/106370_gl_all_44/](https://shouyou.3dmgame.com/zt/106370_gl_all_44/)
+![Google Playstore](https://play.google.com/store/apps/details?id=com.cis.jiangnan.googleplay)
 
-![image.png](CIS%205660%20Final%20Project%201361b7c33bd480bf9254e92d56411b8a/image.png)
+![Link to description](https://shouyou.3dmgame.com/zt/106370_gl_all_44/)
 
-![image.png](CIS%205660%20Final%20Project%201361b7c33bd480bf9254e92d56411b8a/image%201.png)
+![image.png](image.png)
 
-![image.png](CIS%205660%20Final%20Project%201361b7c33bd480bf9254e92d56411b8a/image%202.png)
+![image.png](image%201.png)
+
+![image.png](image%202.png)
 
 ### Specification:
 
