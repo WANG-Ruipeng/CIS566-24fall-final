@@ -77,3 +77,33 @@ We plan to use **Unity** and the **Wave Function Collapse (WFC)** algorithm to p
 | **Week 2** | Implement Core Generation Features | Develop procedural rules for house types (residential, shops, pavilion, tower) | Integrate roads (brick, stone) and bridges, basic scene composition | Implement river with lotus options, basic tree placement (willow, plum blossom) |
 | **Week 3** | Water Painting Stylization & Customization | Implement water painting shader stylization | Add UI for selecting item types (houses, trees, roads) | Refine procedural generation for variety and realism (item size, spacing) |
 | **Week 4** | Final Assembly & Polish | Integrate all elements in scene, optimize generation | Apply final visual adjustments and scene lighting | Conduct testing, debug procedural issues, and prepare for final presentation |
+
+---
+
+## Milestone #1
+
+### Progress Description
+
+So far, we have made significant progress toward our project goals:
+
+1. **Asset Creation**: We created foundational assets tailored to the Jiangnan architectural style. This includes both self-modeled assets and modified free assets from online sources, which have been adjusted to match the aesthetic of traditional Chinese elements.
+2. **Grid-Based Wave Function Collapse (WFC) Implementation**: We’ve developed the core grid-based WFC code, which sets the groundwork for procedural generation in our project. Our generator currently uses a grid-based approach, where each tile is influenced by its neighboring tiles based on predefined rules.
+3. **Generation Rules Configuration**: We configured specific generation rules, ensuring that each object in the scene adheres to a rule set that determines its allowable neighbors. This configuration enables the generation of coherent, traditional-style layouts, where every element respects the Jiangnan architectural style.
+
+### Current Challenges
+
+We encountered some challenges, mainly with the configuration of WFC rules for complex assets. Each asset requires specific neighbor configurations, which is time-intensive. However, the process has been manageable so far, and we are exploring ways to automate or simplify neighbor rule setup for more efficient generation.
+
+### Demo Output
+
+Below are examples of our generator's current output, demonstrating early but promising results in creating Jiangnan-inspired layouts. The visuals are still in a basic form, as we focused primarily on core functionality rather than detailed polish.
+
+![image.png](ReadmeFiles/image%203.png)
+
+*Buildings & roads*
+
+---
+
+## Reference
+
+[CC ROI - STE DreamBigger Photoshop VID 16x9 English](https://www.youtube.com/watch?app=desktop&v=Jsc3BQaJndQ)
