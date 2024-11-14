@@ -2,6 +2,8 @@
 
 Team members: Sirui Zhu, Crystal Jin, Ruipeng Wang
 
+This repository will **NOT** contain actual assets and code in our Unity project because we used some purchased assets.
+
 ## Project planning: Design Doc (due 11/6)
 
 ### Design Doc
@@ -101,6 +103,8 @@ Below are examples of our generator's current output, demonstrating early but pr
 ![image.png](ReadmeFiles/image%203.png)
 
 *Buildings & roads*
+
+https://github.com/user-attachments/assets/f8111741-6960-4e32-b9ad-674ac505e9ab
 
 ---
 
