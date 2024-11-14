@@ -28,11 +28,11 @@ By achieving these objectives, we hope to deliver a tool that not only embodies 
 
 [Link to description](https://shouyou.3dmgame.com/zt/106370_gl_all_44/)
 
-![ReadmeFiles/image.png](image.png)
+![image.png](ReadmeFiles/image.png)
 
-![ReadmeFiles/image.png](image%201.png)
+![image.png](ReadmeFiles/image%201.png)
 
-![ReadmeFiles/image.png](image%202.png)
+![image.png](ReadmeFiles/image%202.png)
 
 ### Specification:
 
