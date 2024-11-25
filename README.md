@@ -108,6 +108,31 @@ https://github.com/user-attachments/assets/f8111741-6960-4e32-b9ad-674ac505e9ab
 
 ---
 
+## Milestone #2
+
+### Progress Update
+
+Since the completion of Milestone #1, we have made significant improvements to our project:
+
+1. **Smarter Generation Rules**:  
+   Our generation rules have become more intelligent. We have implemented functionality to adjust the weights between houses and roads, allowing us to control whether the final generation features more houses or roads.
+
+2. **Post-Processing Effects**:  
+   We added several shaders to enhance the overall environment with post-processing effects, achieving the Chinese ink painting aesthetic we envisioned.
+
+3. **Improved Texturing**:  
+   The textures of the original houses were updated to better prepare them for final refinement with post-processing. Additionally, we added a river to enrich the scene.
+
+4. **Peer Review Feedback**:  
+   During the peer review session, we received valuable suggestions, including:
+   - Adding an **FPS mode** to enable players to tour around the procedurally generated city.
+   - Enhancing the **river shader** to incorporate more dynamic elements.
+   - Improving the interaction between rivers and roads, such as automatically generating bridges when roads intersect with rivers.
+
+### Demo Output
+
+---
+
 ## Reference
 
 [CC ROI - STE DreamBigger Photoshop VID 16x9 English](https://www.youtube.com/watch?app=desktop&v=Jsc3BQaJndQ)
