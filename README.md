@@ -131,6 +131,8 @@ Since the completion of Milestone #1, we have made significant improvements to o
 
 ### Demo Output
 
+![image.png](ReadmeFiles/Milestone2.png)
+
 ---
 
 ## Reference
