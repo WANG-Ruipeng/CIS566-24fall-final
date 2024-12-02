@@ -188,6 +188,10 @@ For Milestone #3, our focus was on improving user interactivity, refining the pr
 
 ### Editing tool
 
+
+https://github.com/user-attachments/assets/ec1c99a8-9511-4f59-ae31-fc6136304ea0
+
+
 ### Waterness index
 | 0.1 waterness | 0.9 waterness |
 | --- | --- |
