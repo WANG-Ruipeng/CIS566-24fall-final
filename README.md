@@ -135,6 +135,66 @@ Since the completion of Milestone #1, we have made significant improvements to o
 
 ---
 
+# Milestone #3
+
+## Progress Update
+
+For Milestone #3, our focus was on improving user interactivity, refining the procedural generation logic, and enhancing the overall visual and functional aspects of the project. A key feature introduced is a streamlined **editing tool**, which allows users to manually influence the grid layout before the Wave Function Collapse (WFC) algorithm generates the environment. Additionally, we improved the river generation algorithm to create more natural and balanced layouts, avoiding overly dense water features.
+
+## New Features and Improvements
+
+### 1. **Editing Tool for Grid Customization**
+
+- **Purpose**: The editing tool allows users to customize the initial grid layout by placing specific objects before starting the WFC process. This feature bridges manual design and procedural generation, giving users more control over the final output.
+- **Implementation**:
+    - Users can **select a tile** by hovering over it, with a wireframe highlight showing the currently selected grid cell.
+    - Pressing the **Tab key** cycles through available objects (e.g., house, tree, road) to place on the selected tile.
+    - **Click and drag** functionality enables users to quickly place multiple objects across the grid.
+    - When the grid customization is complete, pressing the **Spacebar** triggers the WFC algorithm to generate the remaining environment based on the user-defined inputs.
+- **Outcome**: This intuitive editing tool empowers users to influence the layout while maintaining the procedural generation's adaptability and aesthetic coherence.
+
+### 2. **Improved River Generation Algorithm**
+
+- The river generation algorithm was updated to ensure **more realistic water distribution**:
+    - Rivers are only generated when adjacent to an existing water tile, avoiding overly dense or random water placements.
+    - This approach creates more natural and visually appealing waterways, contributing to a balanced scene.
+
+### 3. **Refined Procedural Rules**
+
+- **Dynamic Water Adjustments**: Users can now adjuste the "waterness" in the scene, having more or less water generated.
+- **Constraint Handling**: Enhanced WFC rules to respect user-defined placements, treating them as hard constraints during generation.
+- These refinements improve the coherence and variety of the generated Jiangnan-style environments.
+
+## Workflow
+
+### Step 1: **Edit Mode**
+
+- Begin by customizing the grid layout:
+    - Hover over a tile to select it (wireframe highlights the selection).
+    - Use the **Tab key** to cycle through object types (e.g., house, tree, road).
+    - **Click and drag** to place objects onto multiple grid cells.
+- Modify the grid until satisfied with the initial setup.
+
+### Step 2: **Generate Mode**
+
+- Press the **Spacebar** to start the WFC algorithm.
+- The algorithm fills the remaining grid cells based on the user-defined layout and procedural generation rules.
+
+### Step 3: **Explore the Results**
+
+- Observe the final generated environment, which combines user customization and procedural randomness to create a coherent Jiangnan-inspired scene.
+
+## Progress Demo
+
+### Editing tool
+
+### Waterness index
+| 0.1 waterness | 0.9 waterness |
+| --- | --- |
+| ![image.png](ReadmeFiles/M3_1.png) | ![image.png](ReadmeFiles/M3_2.png) |
+
+---
+
 ## Reference
 
 [CC ROI - STE DreamBigger Photoshop VID 16x9 English](https://www.youtube.com/watch?app=desktop&v=Jsc3BQaJndQ)
