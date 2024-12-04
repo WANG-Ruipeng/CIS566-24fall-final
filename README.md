@@ -133,6 +133,8 @@ Since the completion of Milestone #1, we have made significant improvements to o
 
 ![image.png](ReadmeFiles/Milestone%202.png)
 
+![12621733327712_ pic](https://github.com/user-attachments/assets/92be770b-cbd2-47bc-9fc9-4761840872de)
+
 ---
 
 # Milestone #3
