@@ -133,8 +133,6 @@ Since the completion of Milestone #1, we have made significant improvements to o
 
 ![image.png](ReadmeFiles/Milestone%202.png)
 
-![12621733327712_ pic](https://github.com/user-attachments/assets/92be770b-cbd2-47bc-9fc9-4761840872de)
-
 ---
 
 # Milestone #3
@@ -201,7 +199,13 @@ https://github.com/user-attachments/assets/ec1c99a8-9511-4f59-ae31-fc6136304ea0
 
 ---
 
-# Final Demo
+# Final
+## Progress Update
+For the final milestone, we focused on enhancing the visual fidelity of our procedurally generated Jiangnan-style buildings by introducing a set of new, carefully curated textures. These textures were designed to align more closely with the aesthetics of our original inspiration：
+
+![12621733327712_ pic](https://github.com/user-attachments/assets/92be770b-cbd2-47bc-9fc9-4761840872de)
+
+## Demo Video
 
 https://github.com/user-attachments/assets/b474b98f-cf2f-488d-b931-e7551d310e75
 
