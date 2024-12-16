@@ -73,7 +73,7 @@ We plan to use **Unity** and the **Wave Function Collapse (WFC)** algorithm to p
 
 ### Timeline
 
-| Week | Task | Crystal Jin | Sirui Zhu | Ruipeng Wang |
+| Week | Task | Sirui Zhu | Crystal Jin | Ruipeng Wang |
 | --- | --- | --- | --- | --- |
 | **Week 1** | Initial Setup & Basic Module Creation | Set up Unity project and WFC integration, design base procedural logic | Begin designing prefabs for houses and roads | Design prefabs for trees and water elements |
 | **Week 2** | Implement Core Generation Features | Develop procedural rules for house types (residential, shops, pavilion, tower) | Integrate roads (brick, stone) and bridges, basic scene composition | Implement river with lotus options, basic tree placement (willow, plum blossom) |
